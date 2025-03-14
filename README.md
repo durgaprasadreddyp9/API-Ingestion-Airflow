@@ -1,2 +1,4 @@
 <h1></h1>
 <p>This Airflow DAG automates fetching news data via an AWS Lambda function, storing it in an S3 bucket, verifying file existence, creating a table in Snowflake, loading the data, and sending a success email. It requires AWS and Snowflake connections in Airflow, along with SQL scripts (create_table.sql and load_data.sql). The pipeline runs daily, ensuring data integrity and timely notifications. If the S3 file is missing, the DAG fails and sends an alert. Deploy the DAG, configure connections, and trigger execution via Airflow.</p>
+<h2>🚀 Languages and Tools I Use</h2>
+<p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="42" height="42" /></a></p>
